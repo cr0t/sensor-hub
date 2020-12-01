@@ -1,9 +1,14 @@
 # SensorHub
 
 A sample Phoenix application for simple LiveView page with real-time (mostly)
-data that is getting received from I2C DockerPi Sensor Hub Development Board.
+data that is getting received from I2C DockerPi Sensor Hub Development Board:
 
-![image](https://user-images.githubusercontent.com/113878/100774397-51b00080-3402-11eb-90b9-958e41abb5b3.png)
+<table>
+ <tr>
+  <td><img src="https://user-images.githubusercontent.com/113878/100780612-36e18a00-340a-11eb-9051-9af5c3fa665a.jpg" alt="DockerPi Sensor Hub Development Board" /></td>
+  <td><img src="https://user-images.githubusercontent.com/113878/100774397-51b00080-3402-11eb-90b9-958e41abb5b3.png" alt="Main page of the app" /></td>
+ </tr>
+</table>
 
 The app is running on Raspberry Pi 3 with Raspbian OS installed.
 
