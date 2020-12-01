@@ -5,7 +5,7 @@ data that is getting received from I2C DockerPi Sensor Hub Development Board:
 
 <table>
  <tr>
-  <td><img src="https://user-images.githubusercontent.com/113878/100780612-36e18a00-340a-11eb-9051-9af5c3fa665a.jpg" alt="DockerPi Sensor Hub Development Board" /></td>
+  <td><img src="https://user-images.githubusercontent.com/113878/100781220-0cdc9780-340b-11eb-9811-91ea42890632.jpg" alt="DockerPi Sensor Hub Development Board with DHT12" /></td>
   <td><img src="https://user-images.githubusercontent.com/113878/100774397-51b00080-3402-11eb-90b9-958e41abb5b3.png" alt="Main page of the app" /></td>
  </tr>
 </table>
