@@ -1,0 +1,36 @@
+<h2>Monitor</h2>
+
+<% {:ok, data} = @raw_data %>
+
+<table>
+  <tbody>
+    <tr>
+      <th>Status</th>
+      <td><%= status(data) %></td>
+    </tr>
+    <tr>
+      <th>BPM status</th>
+      <td><%= bpm_status(data) %></td>
+    </tr>
+    <tr>
+      <th>Human detected</th>
+      <td><%= human_detector(data) %></td>
+    </tr>
+    <tr>
+      <th>Lightness</th>
+      <td><%= concat_light(data) %></td>
+    </tr>
+    <tr>
+      <th>Temperature (on board)</th>
+      <td><%= data[:on_board_temp] %>&deg;C</td>
+    </tr>
+    <tr>
+      <th>Temperature (BPM)</th>
+      <td><%= data[:bpm280_temp] %>&deg;C</td>
+    </tr>
+    <tr>
+      <th>Air pressure</th>
+      <td><%= concat_pressure(data) %></td>
+    </tr>
+  </tbody>
+</table>
